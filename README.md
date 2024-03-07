@@ -5,7 +5,8 @@ Tener instalado
 - python 3.11
 - vsc 1.87.0
 
-(Comentario: Se ha creado el archivo mediante django, con startproyect, pararse en la carpeta correspondiente con el cd PE_3 y luego con colocar la App a través de python manage.py startapp)
+Comentario: Se ha creado el archivo mediante django, con startproyect, pararse en la carpeta correspondiente con el cd PE_3 y luego con colocar la App a través de python manage.py startapp
+Se ha tomato un template de start bootstrap. Para los templates, se a usado el padre para crear herencia para las otras plantillas.
 Arrastrar la carpeta al vsc y comenzamos:
 
 1. python manage.py makemigrations para poder crear las tablas de las class en la db
