@@ -1,0 +1,42 @@
+{% extends "AppGI/padre.html" %}
+
+{% block titulo_pagina %}
+Inicio
+{% endblock %}
+
+
+{% block titulo_principal %}
+Bienvenidos al registro de equipos de Genshin Impact
+{% endblock %}
+
+{% block seccion_inicio %}
+<section class="showcase">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2><a class="navbar-brand" href="{% url 'crear_usuario' %}">Creá tu usuario</a><h2>
+                <p class="lead mb-0">Aca podes crear tu usuario para poder cargar tus equipos en la página</p>
+                
+                
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
+            <div class="col-lg-6 my-auto showcase-text">
+                            
+                <h2><a class="navbar-brand" href="{% url 'crear_e_adventure' %}">Registrá tu equipo aventurero!</a><h2>
+                <p class="lead mb-0">Sirve para poder llevar un registro de cual es tu equipo de aventura del momento y lo puedas compartir con los otros viajeros</p>
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2><a class="navbar-brand" href="{% url 'crear_e_abiss' %}">Tambien podes registrar tu equipo para el abismo!</a><h2>
+                <p class="lead mb-0">Podes mantener el registro de tus equipos del abismo y que tus amigos puedan saber con que combinacion pudiste terminarlo</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
