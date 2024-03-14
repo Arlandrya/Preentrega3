@@ -15,6 +15,9 @@ Arrastrar la carpeta al vsc y comenzamos:
 4. ir a la terminal y correr el python manage.py runserver para ver el server
 5. ctrl+C para cerrar el server
 
+Importante!! no hay boton para buscar el usuario, por favor, una vez que corra el codigo (python manage.py runserver)
+ingresar en la barra Buscar usuario= http://127.0.0.1:8000/AGI/buscar_usuario
+
 Las clases son
 -class Usuarios 
     usuario
