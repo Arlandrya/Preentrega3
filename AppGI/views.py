@@ -103,6 +103,6 @@ def resultados_usuario(request):
 
     usuario = request.GET["usuario"]
 
-    resultado = Usuarios.objects.filter(nombre__iexact = usuario)
+    resultado = Usuarios.objects.filter(usuario = usuario)
 
     return render(request, "AppGI/resultados.html", {"resultado":resultado})
